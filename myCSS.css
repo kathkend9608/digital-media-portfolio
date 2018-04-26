@@ -1,17 +1,31 @@
 @charset "UTF-8";
 /* This is a comment! Text here will be ignored by the browser. */
+
 body {
-	margin: 0 auto;
+     font: 100%/1.4 Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"sans-serif;
+     background-color: #FFFFFF;
+     margin: 0 auto;
+     padding: 0;
+     color: #000;
 }
+
+a:link {
+     color: #27838C;
+}
+
+a:visited {
+     color: #32A1AC;
+}
+
 .homePage {
-	background: #222222;
+	background: #3F093F;
 }
 .container {
 	width: 960px;
 	margin: 0 auto;
 }
 .header {
-	background: #AAAAAA;
+	background: #96203C;
 	text-align: center;
 	margin: 0px;
 	padding: 5;
@@ -21,7 +35,7 @@ body {
 	
 }
 .nav {
-	background: #BBBBBB;
+	background: #5B002F;
 	margin: 0px;
 	padding: 5;
 	float: left;
@@ -30,14 +44,14 @@ body {
 	text-align: center;
 }
 .content {
-	background: #EEEEEE;
+	background: #CBF3FD;
 	margin: 0px;
 	float: left;
 	width: 100%;
 	text-align: center;
 }
 .footer {
-	background: #777777;
+	background: #96203C;
 	margin: 0px;
 	float: left;
 	width: 100%;
